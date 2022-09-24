@@ -22,8 +22,8 @@ jobs:
           node-version: 16.x
           cache: pnpm
 
-      - name: Install dependencies
-        run: pnpm install
+      - name: Install changelogithub
+        run: pnpm install changelogithub
 
       - run: npx changelogithub
         env:
