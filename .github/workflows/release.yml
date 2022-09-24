@@ -16,11 +16,14 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v2
 
-      - name: Set node
+      - name: Setup node
         uses: actions/setup-node@v3
         with:
           node-version: 16.x
           cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install
 
       - run: npx changelogithub
         env:
