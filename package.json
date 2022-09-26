@@ -45,7 +45,7 @@
     "test": "vitest",
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
-    "linf:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
     "@bernankez/eslint-config": "^0.0.2",
