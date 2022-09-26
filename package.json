@@ -42,10 +42,12 @@
     "release": "bumpp",
     "start": "tsx src/index.ts",
     "taze": "taze",
-    "test": "vitest",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@bernankez/eslint-config": "^0.0.2",
@@ -53,6 +55,7 @@
     "bumpp": "^8.2.1",
     "changelogithub": "^0.12.4",
     "eslint": "^8.24.0",
+    "husky": "^8.0.0",
     "rimraf": "^3.0.2",
     "taze": "^0.8.1",
     "tsx": "^3.9.0",
