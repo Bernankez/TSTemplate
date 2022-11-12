@@ -8,6 +8,7 @@
 
 - [ ] Change the `name`, `description`, `author`, `homepage`, `repository`, `bugs`, `keywords` in `package.json`
 - [ ] Change the author in `LICENSE`
+- [ ] Set your Actions Secrets via GitHub
 - [ ] Have fun :)
 
 ### Check Also
