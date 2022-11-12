@@ -50,7 +50,7 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@bernankez/eslint-config": "^0.0.4",
+    "@bernankez/eslint-config": "^0.1.0",
     "@types/node": "^18.7.19",
     "bumpp": "^8.2.1",
     "changelogithub": "^0.12.4",
