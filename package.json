@@ -36,10 +36,11 @@
     "dist"
   ],
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "build": "unbuild",
     "dev": "unbuild --stub",
     "prepublishOnly": "npm run build",
-    "release": "bumpp",
+    "release": "bumpp && npm publish --access public",
     "start": "tsx src/index.ts",
     "taze": "taze",
     "test": "vitest run",
