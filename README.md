@@ -1,6 +1,6 @@
 <p align="center">
   <strong>📦 TSTemplate</strong><br><br>
-  Starter template for TypesScript library<br>
+  Starter template for TypesScript library with unbuild<br>
   <samp>extends <a href="https://github.com/antfu/starter-ts" target="_blank">antfu/starter-ts</a></samp>
 </p>
 
