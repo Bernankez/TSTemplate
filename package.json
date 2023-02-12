@@ -46,6 +46,7 @@
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit",
     "lint": "eslint . --fix",
+    "lint:check": "eslint .",
     "prepare": "husky install"
   },
   "devDependencies": {
