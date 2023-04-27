@@ -33,7 +33,7 @@ jobs:
         run: nci
 
       - name: Lint
-        run: nr lint:check
+        run: nr lint
 
   typecheck:
     runs-on: ubuntu-latest
